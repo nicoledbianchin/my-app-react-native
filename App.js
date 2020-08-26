@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './src/components/Header/Header'
-import { GlobalStyles } from './src/components/Global/GlobalStyles'
 
 import {
   SafeAreaView,
@@ -11,7 +10,6 @@ import {
 const App = () => {
   return (
     <>
-    {/* <GlobalStyles/> */}
       <StatusBar />
       <SafeAreaView>
         <ScrollView>
