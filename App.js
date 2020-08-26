@@ -1,23 +1,21 @@
 import React from 'react';
+import Header from './src/components/Header/Header'
+import { GlobalStyles } from './src/components/Global/GlobalStyles'
 
 import {
   SafeAreaView,
-  StyleSheet,
   ScrollView,
-  View,
-  Text,
   StatusBar,
 } from 'react-native';
 
 const App = () => {
   return (
     <>
+    {/* <GlobalStyles/> */}
       <StatusBar />
       <SafeAreaView>
         <ScrollView>
-          <Text>
-            test
-          </Text>
+          <Header/>
         </ScrollView>
       </SafeAreaView>
     </>
